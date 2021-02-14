@@ -8,16 +8,17 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/numbers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Numbers"
         android:padding="20dp"
         android:textColor="@color/white"
         android:background="#558B2F"
-        android:textSize="20sp"
-        android:onClick="openNumbersActivity"/>
+        android:textSize="20sp"/>
 
     <TextView
+        android:id="@+id/family"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Family Members"
@@ -25,10 +26,10 @@
         android:textColor="@color/white"
         android:background="#3F51B5"
         android:textSize="20sp"
-        android:layout_marginTop="10dp"
-        android:onClick="openFamilyMembersActivity"/>
+        android:layout_marginTop="10dp" />
 
     <TextView
+        android:id="@+id/colors"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Colors"
@@ -36,10 +37,10 @@
         android:textColor="@color/white"
         android:background="#FF9800"
         android:textSize="20sp"
-        android:layout_marginTop="10dp"
-        android:onClick="openColorsActivity"/>
+        android:layout_marginTop="10dp" />
 
     <TextView
+        android:id="@+id/phrases"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Phrases"
@@ -47,7 +48,6 @@
         android:textColor="@color/white"
         android:background="#009688"
         android:textSize="20sp"
-        android:layout_marginTop="10dp"
-        android:onClick="openPhrasesActivity"/>
+        android:layout_marginTop="10dp" />
 
 </LinearLayout>
